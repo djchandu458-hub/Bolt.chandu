@@ -1,0 +1,6 @@
+[build]
+  command = "pnpm install --no-optional && pnpm run build"
+  publish = "build/client"
+
+[functions]
+  node_bundler = "esbuild"
